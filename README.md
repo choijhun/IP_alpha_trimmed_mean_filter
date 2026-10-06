@@ -1,6 +1,9 @@
 # Image_Processing_alpha_trimmed_mean_filter
 denoisng with alpha trimmed filter
-주변 픽셀을 정렬한 뒤 alpha 비율만큼 양쪽 극단값을 제거하고, 남은 픽셀들의 평균을 계산하는 Alpha-Trimmed Mean Filter를 C++로 구현함. OpenCV의 라이브러리 함수 없이 주변 픽셀 탐색, 정렬, 경계 처리 및 평균 계산 과정을 직접 구현함.
+주변 픽셀을 정렬한 뒤 alpha 비율만큼 양쪽 극단값을 제거하고, 남은 픽셀들의 평균을 계산하는 Alpha-Trimmed Mean Filter를 C++로 구현함. 
+
+OpenCV의 라이브러리 함수 없이 주변 픽셀 탐색, 정렬, 경계 처리 및 평균 계산 과정을 직접 구현함.
+
 다양한 kernel size와 alpha 값에 따른 filtering 결과를 비교.
 # noisy image
 
